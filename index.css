@@ -1,0 +1,56 @@
+@media print {
+   #video {
+      display: none;
+   }
+}
+#header {
+   padding-top: 10px;
+}
+#header-img {
+   width: 640px;
+   height: 427px;
+}
+#nav-bar {
+   position: fixed;
+   top: 0;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+#video {
+   width: 500px;
+   margin: auto;
+}
+#form {
+   text-align: center;
+}
+#email {
+}
+#submit {
+}
+.nav-link:link, .nav-link:visited {
+   border: 1px solid black;
+   margin: 0px 5px;
+   color: black;
+   width: 75px;
+   height: 20px;
+   text-decoration: none;
+   background-color: white;
+}
+.nav-link:hover {
+   background-color: #bdf;
+}
+.center {
+   text-align: center;
+}
+main {
+   margin: auto;
+   width: 400 px;
+   text-align: center;
+}
+div {
+   width: 400px;
+   margin: auto;
+   text-align: left;
+}
